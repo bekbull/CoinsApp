@@ -25,11 +25,13 @@ struct TopMoversItemView: View {
                 Text(coin.symbol.uppercased())
                     .textCase(.uppercase)
                     .font(.caption)
-                    .foregroundStyle(.primary)
+                    .fontWeight(.semibold)
+                    .foregroundStyle(LCColors.primaryTextColor)
                 Text(coin.currentPrice.toCurrencyWithTwoDecimals())
                     .textCase(.uppercase)
                     .font(.caption)
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(LCColors.primaryTextColor)
+                    .opacity(0.5)
             }
             
             Text(coin.priceChangePercentage24H.toPercent())

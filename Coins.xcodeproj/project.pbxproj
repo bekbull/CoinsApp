@@ -13,6 +13,8 @@
 		BC1216E72B46DC3C00514A18 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1216E62B46DC3C00514A18 /* HomeView.swift */; };
 		BC1216EA2B46DD6B00514A18 /* TopMoversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1216E92B46DD6B00514A18 /* TopMoversView.swift */; };
 		BC1216EC2B46DD7A00514A18 /* TopMoversItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1216EB2B46DD7A00514A18 /* TopMoversItemView.swift */; };
+		BC4C09BA2B49C10F001B7BEA /* CoinDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4C09B92B49C10F001B7BEA /* CoinDetailsView.swift */; };
+		BC4C09BC2B49C5AF001B7BEA /* LCColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4C09BB2B49C5AF001B7BEA /* LCColors.swift */; };
 		BC6159952B4994ED00018D8E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6159942B4994ED00018D8E /* HomeViewModel.swift */; };
 		BC6159972B49996200018D8E /* Сoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6159962B49996200018D8E /* Сoin.swift */; };
 		BC61599A2B49A48A00018D8E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = BC6159992B49A48A00018D8E /* Kingfisher */; };
@@ -29,6 +31,8 @@
 		BC1216E62B46DC3C00514A18 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BC1216E92B46DD6B00514A18 /* TopMoversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversView.swift; sourceTree = "<group>"; };
 		BC1216EB2B46DD7A00514A18 /* TopMoversItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversItemView.swift; sourceTree = "<group>"; };
+		BC4C09B92B49C10F001B7BEA /* CoinDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailsView.swift; sourceTree = "<group>"; };
+		BC4C09BB2B49C5AF001B7BEA /* LCColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCColors.swift; sourceTree = "<group>"; };
 		BC6159942B4994ED00018D8E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		BC6159962B49996200018D8E /* Сoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Сoin.swift"; sourceTree = "<group>"; };
 		BC61599B2B49A57400018D8E /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 		BC1216DD2B46DB8F00514A18 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BC4C09BB2B49C5AF001B7BEA /* LCColors.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 		BC1216DE2B46DB9400514A18 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				BC4C09B42B49C0D0001B7BEA /* CoinDetails */,
 				BC1216E22B46DC0700514A18 /* Home */,
 			);
 			path = Core;
@@ -152,6 +158,30 @@
 				BC6159942B4994ED00018D8E /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BC4C09B42B49C0D0001B7BEA /* CoinDetails */ = {
+			isa = PBXGroup;
+			children = (
+				BC4C09B52B49C0DE001B7BEA /* ViewModels */,
+				BC4C09B62B49C0E3001B7BEA /* Views */,
+			);
+			path = CoinDetails;
+			sourceTree = "<group>";
+		};
+		BC4C09B52B49C0DE001B7BEA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BC4C09B62B49C0E3001B7BEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC4C09B92B49C10F001B7BEA /* CoinDetailsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,14 +261,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC6E19092B48F3620019AA0C /* AllCoinView.swift in Sources */,
+				BC4C09BA2B49C10F001B7BEA /* CoinDetailsView.swift in Sources */,
 				BC6E190B2B48F36E0019AA0C /* CoinRowView.swift in Sources */,
 				BC1216D02B46DAF700514A18 /* CoinsApp.swift in Sources */,
+				BC61599C2B49A57400018D8E /* Double.swift in Sources */,
 				BC1216E72B46DC3C00514A18 /* HomeView.swift in Sources */,
-				BC6159972B49996200018D8E /* Сoin.swift in Sources */,
 				BC6159952B4994ED00018D8E /* HomeViewModel.swift in Sources */,
 				BC1216EC2B46DD7A00514A18 /* TopMoversItemView.swift in Sources */,
-				BC61599C2B49A57400018D8E /* Double.swift in Sources */,
 				BC1216EA2B46DD6B00514A18 /* TopMoversView.swift in Sources */,
+				BC6159972B49996200018D8E /* Сoin.swift in Sources */,
+				BC4C09BC2B49C5AF001B7BEA /* LCColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

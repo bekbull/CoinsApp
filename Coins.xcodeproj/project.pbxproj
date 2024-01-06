@@ -232,7 +232,7 @@
 			);
 			mainGroup = BC1216C32B46DAF700514A18;
 			packageReferences = (
-				BC6159982B49A48A00018D8E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				BC6159982B49A48A00018D8E /* XCRemoteSwiftPackageReference "Kingfisher.git" */,
 			);
 			productRefGroup = BC1216CD2B46DAF700514A18 /* Products */;
 			projectDirPath = "";
@@ -267,10 +267,10 @@
 				BC61599C2B49A57400018D8E /* Double.swift in Sources */,
 				BC1216E72B46DC3C00514A18 /* HomeView.swift in Sources */,
 				BC6159952B4994ED00018D8E /* HomeViewModel.swift in Sources */,
+				BC4C09BC2B49C5AF001B7BEA /* LCColors.swift in Sources */,
 				BC1216EC2B46DD7A00514A18 /* TopMoversItemView.swift in Sources */,
 				BC1216EA2B46DD6B00514A18 /* TopMoversView.swift in Sources */,
 				BC6159972B49996200018D8E /* Сoin.swift in Sources */,
-				BC4C09BC2B49C5AF001B7BEA /* LCColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +478,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		BC6159982B49A48A00018D8E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+		BC6159982B49A48A00018D8E /* XCRemoteSwiftPackageReference "Kingfisher.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
 			requirement = {
@@ -491,7 +491,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		BC6159992B49A48A00018D8E /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BC6159982B49A48A00018D8E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			package = BC6159982B49A48A00018D8E /* XCRemoteSwiftPackageReference "Kingfisher.git" */;
 			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
